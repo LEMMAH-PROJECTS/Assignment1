@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>My first chart using FusionCharts Suite XT</title>
+    <!-- Include fusioncharts core library -->
+    <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
+    <!-- Include fusion theme -->
+    <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
+    <script type="text/javascript">
+        var chartConfig ;
+
+        (function() {
+            // your page initialization code here
+            // the DOM will be available here
+            console.log(chartConfig);
+            FusionCharts.ready(function(){
+                var fusioncharts = new FusionCharts(chartConfig);
+                fusioncharts.render();
+            });
+        })();
+        //STEP 3 - Chart Configurations
+
+
+    </script>
+</head>
+<body>
+<div id="chart-container">FusionCharts XT will load here!</div>
+</body>
+</html>
