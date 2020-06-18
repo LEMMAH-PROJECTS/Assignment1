@@ -53,36 +53,4 @@ public class fusionChartJscript {
 		}
 
 	}
-
-	@AfterTest
-	public void afterTest() {
-		/*
-		 * 
-		 * try {
-		 * 
-		 * if (OSValidator.isWindows()) { System.out.println("This is Windows");
-		 * System.setProperty("webdriver.chrome.driver",
-		 * "/Volumes/MyDrive/Automation/AutomationPractice/Lemmah/drivers/windows/chromedriver.exe"
-		 * ); WebDriver driver = new ChromeDriver();
-		 * driver.manage().window().maximize();
-		 * driver.manage().timeouts().pageLoadTimeout(1, TimeUnit.SECONDS);
-		 * driver.get(htmlFile); } else if (OSValidator.isMac()) {
-		 * System.out.println("This is Mac"); System.out.println(htmlFile);
-		 * System.setProperty("webdriver.chrome.driver",
-		 * "/Volumes/MyDrive/Automation/AutomationPractice/Lemmah/drivers/mac/chromedriver"
-		 * ); WebDriver driver = new ChromeDriver();
-		 * driver.manage().window().maximize();
-		 * driver.manage().timeouts().pageLoadTimeout(1, TimeUnit.SECONDS); String
-		 * filepath = "file://" + htmlFile; System.out.println("Final file path :" +
-		 * filepath); driver.get(filepath);
-		 * driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		 * driver.navigate().to(driver.getCurrentUrl()); driver.navigate().refresh(); }
-		 * else { System.out.println("Your OS is not support!!"); } } catch (Exception
-		 * e) { // TODO Auto-generated catch block System.out.println(e.getMessage());
-		 * // e.printStackTrace(e.getMessage()); }
-		 * 
-		 * 
-		 * }
-		 * 
-		 */}
 }
