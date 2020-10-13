@@ -20,7 +20,7 @@
 
 		<ngwebdriver>1.1.4</ngwebdriver>
 		<failsafe.plugin.version>2.20.1</failsafe.plugin.version>
-		<junit.version>4.12</junit.version>
+		<junit.version>4.13.1</junit.version>
 		<junit.jupiter.version>5.0.3</junit.jupiter.version>
 		<junit.vintage.version>${junit.version}.3</junit.vintage.version>
 		<junit.platform.version>1.0.3</junit.platform.version>
